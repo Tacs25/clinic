@@ -177,23 +177,7 @@ include_once 'main/includes/dbh.inc.php'
                                                     </div>
                                                 </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label> Consulting Time</label>
-                                                <div class="input-group date">
-                                                    <select name="consult_time" id="consult_time" class="form-control">
-                                                       <option value="15"> 15 minutes </option>
-                                                       <option value="15"> 15 minutes </option>
-                                                    </select>
-                                                    <div class="input-group-addon input-group-prepend">
-                                                        <span class="input-group-text">
-                                                            <i class="bi bi-clock-fill"></i>
-                                                            
-                                                        </span>
-                                                        
-                                                        
-                                                    </div>
-                                                </div>
-                                        </div>
+                                        
                                     
                                 </div>
                                 
@@ -220,7 +204,7 @@ include_once 'main/includes/dbh.inc.php'
                             <th>Appointment No.</th>
                             <th>Appointment Date</th>
                             <th>Appointment Time</th>
-                            <th>Appointment Status</th>
+                            
                             
                           </tr>
                         </thead>
@@ -236,7 +220,7 @@ include_once 'main/includes/dbh.inc.php'
                             <td><?php echo $row['ID'];?></td>
                             <td><?php echo $row['sched'];?></td>
                             <td><?php echo $row['start_time'];?>-<?php echo $row['end_time'];?></td>
-                            <td></td>
+                            
                           </tr>
                           
                         </tbody>
@@ -248,7 +232,7 @@ include_once 'main/includes/dbh.inc.php'
                             <th>Appointment No.</th>
                             <th>Appointment Date</th>
                             <th>Appointment Time</th>
-                            <th>Appointment Status</th>
+                            
                           </tr>
                         </tfoot>
                       </table>
