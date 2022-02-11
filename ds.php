@@ -283,7 +283,7 @@ include_once 'main/includes/dbh.inc.php'
 
         $(function () {
         $('#datepicker1, #datepicker2').datetimepicker({
-            format: 'hh:mm a',
+            format: 'HH:mm ',
             ignoreReadonly: true
         });
 
