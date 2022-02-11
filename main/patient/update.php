@@ -16,19 +16,19 @@ session_start();
 				<div class="card-body">
 					<form method="post" id="patient_register_form" action="../includes/update.inc.php">
 						<div class="form-group">
-							<label>Current Password<span class="text-danger">*</span></label>
+							<label>Current Password<span class="text-danger"></label>
 							<input type="password" name="current_password" id="current_password" class="form-control" required  />
 						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label>New Password<span class="text-danger">*</span></label>
+									<label>New Password<span class="text-danger"></label>
 									<input type="password" name="new_password" id="new_password" class="form-control" required   />
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label>Repeat Password<span class="text-danger">*</span></label>
+									<label>Confirm Password<span class="text-danger"></label>
 									<input type="password" name="repeat_password" id="repeat_password" class="form-control" required   />
 								</div>
 							</div>
