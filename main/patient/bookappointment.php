@@ -22,7 +22,6 @@
 								<th>Appointment Date YY/M/D</th>
 								<th>Appointment Start Time</th>
 								<th>Appointment End Time</th>
-								<th>Duration</th>
 								<th>Action</th>
 			      			</tr>
 			      		</thead>
@@ -41,7 +40,6 @@
                             <td><input type="hidden" name="sched" value="<?php echo $row['sched'];?>"><?php echo $row['sched'];?></td>
                             <td><input type="hidden" name="start_time" value="<?php echo $row['start_time'];?>"><?php echo $row['start_time'];?></td>
                             <td><input type="hidden" name="end_time" value="<?php echo $row['end_time'];?>"><?php echo $row['end_time'];?></td>
-							<td><input type="hidden" name="duration" value="<?php echo $row['duration'];?>"><?php echo $row['duration'];?> minutes</td>
 							<td><button type="button" name ="booking" class="btn btn-primary" value ="Book" data-bs-toggle="modal" data-bs-target="#bookmodal">Book</button></td>
 
 							<div class="modal fade" tabindex="-1" id="bookmodal">

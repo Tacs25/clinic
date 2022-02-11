@@ -22,8 +22,6 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="../index.php" ><img src="../img/eyel.png" alt="logo" height="50"><span style="color: blue; font-weight: bolder;" >A</span>suncion <span style="color: blue; font-weight: bolder;">O</span>ptical</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          
         </div>
     </nav>
