@@ -1,11 +1,12 @@
 <?php
 
-// development 
+// Local Development
 // $servername = 'localhost';
 // $username = 'root';
 // $password = '';
 // $dbname = 'access';
 
+// Hosting
 $servername = 'remotemysql.com';
 $username = '6VJZxCdZXy';
 $password = 'm4efKGyzN6';
