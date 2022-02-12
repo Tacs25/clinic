@@ -28,13 +28,13 @@ if(isset($_SESSION['id'])){
 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			
 	  	<ul class="navbar-nav">
-	    	<li class="nav-item">
+	    	<li class="nav-item <?php if($page=='profile'){echo 'active';}?>">
 	      		<a class="nav-link" href="profile.php">Profile</a>
 	    	</li>
-	    	<li class="nav-item">
+	    	<li class="nav-item <?php if($page=='book'){echo 'active';}?>">
 	      		<a class="nav-link" href="bookappointment.php">Book Appointment</a>
 	    	</li>
-	    	<li class="nav-item">
+	    	<li class="nav-item <?php if($page=='appointment'){echo 'active';}?>">
 	      		<a class="nav-link" href="myappointment.php">My Appointment</a>
 	    	</li>
 		  

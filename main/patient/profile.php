@@ -7,7 +7,7 @@ session_start();
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <div class="container-fluid">
-	<?php include('navbar.php'); ?>
+	<?php $page = 'profile'; include('navbar.php'); ?>
     
     <!-- edit 
     <div class="row justify-content-md-center">

@@ -5,7 +5,7 @@
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <div class="container-fluid">
-	<?php include('navbar.php'); ?>
+	<?php $page = 'appointment'; include('navbar.php'); ?>
 
     <br />
 

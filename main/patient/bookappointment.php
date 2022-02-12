@@ -5,7 +5,7 @@
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <div class="container-fluid">
-	<?php include('navbar.php'); ?>
+	<?php  $page = 'book'; include('navbar.php'); ?>
 
     <br />
 

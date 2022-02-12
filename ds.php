@@ -274,11 +274,15 @@ include_once 'main/includes/dbh.inc.php'
         });
         </script>
 	<script type="text/javascript">
+
+    var dateToday = new Date(); 
     $(function(){
         
         $('#datepicker').datetimepicker({
         	format: 'YYYY-MM-DD',
-        	ignoreReadonly: true
+        	minDate: dateToday,
+        	ignoreReadonly: true,
+          minDate: dateToday
         });
 
         $(function () {
